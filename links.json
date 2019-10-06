@@ -128,7 +128,12 @@
                   {
                     "name": "Wiki",
                     "url": "https://azukibox.hd.free.fr/dokuwiki/"
+                  },
+                  {
+                    "name": "PrivateBin",
+                    "url": "https://azukibox.hd.free.fr/zerobin/"
                   }
+
                 ]
               },
               {
