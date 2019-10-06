@@ -1,87 +1,31 @@
 {
             "bookmarks" : [
               {
-                "category": "Communicate",
+                "category": "Common",
                 "links": [
                   {
-                    "name": "Discord",
-                    "url": "https://discordapp.com/"
-                  },
-                  {
-                    "name": "Gmail",
-                    "url": "http://gmail.com"
-                  },
-                  {
-                    "name": "Slack",
-                    "url": "https://slack.com/signin"
+                    "name": "Ouest-France",
+                    "url": "https://www.ouest-france.fr/bretagne/rennes-35000/"
+                  },{
+                    "name": "Vide-Greniers",
+                    "url": "https://vide-greniers.org/35-Ille-et-Vilaine/Rennes-35"
                   }
                 ]
               },
               {
-                "category": "Cloud",
+                "category": "Records",
                 "links": [
                   {
-                    "name": "Box",
-                    "url": "https://box.net"
+                    "name": "45cat",
+                    "url": "http://www.45cat.com"
                   },
                   {
-                    "name": "Dropbox",
-                    "url": "https://dropbox.com"
+                    "name": "Gripsweat",
+                    "url": "http://gripsweat.com"
                   },
                   {
-                    "name": "Drive",
-                    "url": "https://drive.google.com"
-                  }
-                ]
-              },
-              {
-                "category": "Design",
-                "links": [
-                  {
-                    "name": "Awwwards",
-                    "url": "https://awwwards.com"
-                  },
-                  {
-                    "name": "Dribbble",
-                    "url": "https://dribbble.com"
-                  },
-                  {
-                    "name": "Muz.li",
-                    "url": "https://medium.muz.li/"
-                  }
-                ]
-              },
-              {
-                "category": "Dev",
-                "links": [
-                  {
-                    "name": "Codepen",
-                    "url": "https://codepen.io/"
-                  },
-                  {
-                    "name": "Devdocs",
-                    "url": "https://devdocs.io"
-                  },
-                  {
-                    "name": "Devhints",
-                    "url": "https://devhints.io"
-                  }
-                ]
-              },
-              {
-                "category": "Lifestyle",
-                "links": [
-                  {
-                    "name": "Design Milk",
-                    "url": "https://design-milk.com/category/interior-design/"
-                  },
-                  {
-                    "name": "Dwell",
-                    "url": "https://www.dwell.com/"
-                  },
-                  {
-                    "name": "Freshome",
-                    "url": "https://freshome.com/"
+                    "name": "CollectorsFrenzy",
+                    "url": "http://collectorsfrenzy.com/"
                   }
                 ]
               },
@@ -89,50 +33,134 @@
                 "category": "Media",
                 "links": [
                   {
-                    "name": "Spotify",
-                    "url": "http://browse.spotify.com"
-                  },
-                  {
-                    "name": "Trakt",
-                    "url": "http://trakt.tv"
-                  },
-                  {
                     "name": "YouTube",
-                    "url": "http://youtube.com/subscriptions"
+                    "url": "https://www.youtube.com/user/goorman/playlists?view=1&sort=dd&shelf_id=0"
+                  },
+                  {
+                    "name": "Mixcloud",
+                    "url": "https://www.mixcloud.com/morguito/"
                   }
                 ]
               },
               {
-                "category": "Reading",
+                "category": "Dev",
                 "links": [
                   {
-                    "name": "Instapaper",
-                    "url": "https://www.instapaper.com/u"
+                    "name": "cheatsheet",
+                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/x6JfGjEWFn5akDd"
                   },
                   {
-                    "name": "Medium",
-                    "url": "http://medium.com"
+                    "name": ".bashrc",
+                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/jTjs8fQWnSFLtYi/download"
                   },
                   {
-                    "name": "Reddit",
-                    "url": "http://reddit.com"
+                    "name": ".vimrc",
+                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/FFgGGQkSqDpg7jC/download"
                   }
                 ]
               },
               {
-                "category": "Tech",
+                "category": "Apside",
                 "links": [
                   {
-                    "name": "TheNextWeb",
-                    "url": "https://thenextweb.com/"
+                    "name": "PACO",
+                    "url": "https://paco.apsdigit.fr/home"
                   },
                   {
-                    "name": "The Verge",
-                    "url": "https://theverge.com/"
+                    "name": "RocketChat",
+                    "url": "https://chat.apsdigit.fr/home"
                   },
                   {
-                    "name": "MIT Technology Review",
-                    "url": "https://www.technologyreview.com/"
+                    "name": "Zimbra",
+                    "url": "https://mail.apside-groupe.com/"
+                  },
+                  {
+                    "name": "Sygess",
+                    "url": "https://collaborateurs.apside.fr/"
+                  },
+                  {
+                    "name": "Meyclub",
+                    "url": "http://www.apsiderennes.meyclub.com/com/homepage"
+                  },
+                  {
+                    "name": "My Edenred",
+                    "url": "https://www.myedenred.fr/"
+                  }
+
+                ]
+              },
+              {
+                "category": "Market",
+                "links": [
+                  {
+                    "name": "eBay",
+                    "url": "https://www.ebay.com/u"
+                  },
+                  {
+                    "name": "Etsy",
+                    "url": "https://www.etsy.com/"
+                  },
+                  {
+                    "name": "leboncoin",
+                    "url": "https://www.leboncoin.fr/annonces/offres/bretagne/"
+                  },
+                  {
+                    "name": "Mesures",
+                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/Qg4ZMk93dKkrz5d"
+                  }
+                ]
+              },
+              {
+                "category": "Tools",
+                "links": [
+                  {
+                    "name": "Jirafeau",
+                    "url": "https://azukibox.hd.free.fr/jirafeau/"
+                  },
+                  {
+                    "name": "freebox OS",
+                    "url": "http://mafreebox.freebox.fr/"
+                  },
+                  {
+                    "name": "AllTube-DL",
+                    "url": "https://alltubedownload.net/"
+                  },
+                  {
+                    "name": "Wiki",
+                    "url": "https://azukibox.hd.free.fr/dokuwiki/"
+                  }
+                ]
+              },
+              {
+                "category": "Bus",
+                "links": [
+                  {
+                    "name": "C3 - St Laurent",
+                    "url": "https://m.star.fr/arret/1103/3/0"
+                  },
+                  {
+                    "name": "C5 - Patton",
+                    "url": "https://m.star.fr/arret/1252/5/0"
+                  },
+                  {
+                    "name": "09 - St Laurent",
+                    "url": "https://m.star.fr/arret/1372/9/0"
+                  },
+                  {
+                    "name": "51 - St Laurent",
+                    "url": "https://m.star.fr/arret/1485/51/0"
+                  },
+                  {
+                    "name": "14 - Hélias",
+                    "url": "https://m.star.fr/arret/1410/14/0"
+                  },
+                  {
+                    "name": "09 - St Laurent",
+                    "url": "https://m.star.fr/arret/1372/9/0"
+                  },
+                  {
+                    "name": "C1 - Champs Blanc",
+                    "url": "https://m.star.fr/arret/2126/1/0"
                   }
                 ]
               }

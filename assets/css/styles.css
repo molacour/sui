@@ -49,13 +49,12 @@ h2, h3, h4{
 h1{
 	font-size: 4em;
 	font-weight: 700;
-	margin-bottom: 0.5em;
 }
 
 h2{
 	font-size: 16px;
 	height: 30px;
-	
+	margin-bottom: 0.5em;
 }
 
 h3{
@@ -93,7 +92,7 @@ input{
 	border: 0;
 	border-bottom: thin solid var(--color-text-acc);
 	color: var(--color-text-pri);
-	font-size: 0.8em;
+	font-size: 1em;
 	height: 3.5em;
 	transition: all 0.4s ease;
 	width: 100%;
@@ -283,8 +282,7 @@ table a{
 
 /* MODAL */
 
-
-#modal{
+.modal{
 	bottom: 0;
 	left: 0;
 	opacity: 0;
@@ -296,29 +294,31 @@ table a{
 	z-index: 20;
 }
 
-#modal:target{
+.modal:target{
 	opacity: 1;
 	pointer-events: auto;
 }
 
-#modal>div{
+.modal>div{
 	background-color: #ffffff;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.25);
 	margin-left: auto;
     margin-right: auto;
 	padding: 2em;
-	margin-top: 25vh;
+	margin-top: 5%;
 	width: 50%;
+	max-height: 80%;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
-#modal h1{
+.modal h1{
 	color: #333333;
 	font-size: 2em;
 }
 
-#modal h2{
+.modal h2{
 	margin-top:1.5em;
 }
 

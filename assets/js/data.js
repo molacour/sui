@@ -33,3 +33,15 @@ $(document).ready(function(){
       $('#providers').html(myresult);
   });
 });
+
+var data_ascii = "ascii.json";
+  
+$(document).ready(function(){
+  $.getJSON(data_ascii,
+    function (data) {
+      var mysource = $('#ascii-template').html();
+      var mytemplate = Handlebars.compile(mysource);
+      var myresult = mytemplate(data)
+      $('#ascii').html(myresult);
+  });
+});

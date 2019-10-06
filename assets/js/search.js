@@ -53,23 +53,36 @@ function handleKeyPress(e) {
 function search(text) {
     var option = text.substr(1, text.indexOf(' ') - 1) || text.substr(1);
     var subtext = text.substr(2 + option.length);
+    var default_engine = "https://www.qwant.com/?q=";
     if (text[0] === '/') {
         if (text.indexOf(' ') > -1) {
             switch (option) {
-                case "am":
-                    window.location = "https://www.allmusic.com/search/all/" + subtext;
-                    break;
-                case "d":
-                    window.location = "https://duckduckgo.com/?q=" + subtext;
+                case "cpp":
+                    window.location = "http://www.cplusplus.com/search.do?q=" + subtext;
                     break;
                 case "di":
                     window.location = "https://www.discogs.com/search/?q=" + subtext;
                     break;
-                case "i":
-                    window.location = "https://www.imdb.com/find?q=" + subtext;
+                case "e":
+                    window.location = "https://www.ebay.com/sch/i.html?_nkw=" + subtext;
                     break;
-                case "m":
-                    window.location = "https://www.themoviedb.org/search?query=" + subtext;
+                case "g":
+                    window.location = "https://www.google.com/search?q=" + subtext;
+                    break;
+                case "img":
+                    window.location = "https://www.qwant.com/?q=" + subtext + "&t=images";
+                    break;
+                case "man":
+                    window.location = default_engine  + subtext + " site:man7.org/linux/man-pages";
+                    break;
+                case "p":
+                    window.location = "https://www.popsike.com/php/quicksearch.php?searchtext=" + subtext + "&sortord=ddate&pagenum=1&incldescr=&layout=&sprice=&eprice=&endfrom=&endthru=&bidsfrom=&bidsthru=#";
+                    break;
+                case "py":
+                    window.location = "https://docs.python.org/2/search.html?q=" + subtext + "&sortord=ddate&pagenum=1&incldescr=&layout=&sprice=&eprice=&endfrom=&endthru=&bidsfrom=&bidsthru=#";
+                    break;
+                case "py3":
+                    window.location = "https://docs.python.org/3/search.html?q=" + subtext + "&sortord=ddate&pagenum=1&incldescr=&layout=&sprice=&eprice=&endfrom=&endthru=&bidsfrom=&bidsthru=#";
                     break;
                 case "r":
                     window.location = "https://www.reddit.com/search?q=" + subtext;
@@ -77,41 +90,58 @@ function search(text) {
                 case "q":
                     window.location = "https://www.qwant.com/?q=" + subtext;
                     break;
-                case "so":
-                    window.location = "https://soundcloud.com/search?q=" + subtext;
+                case "wiki":
+                    window.location = "https://fr.wikipedia.org/w/index.php?search=" + subtext;
                     break;
-                case "s":
-                    window.location = "https://open.spotify.com/search/results/" + subtext;
-                    break;
-                case "t":
-                    window.location = "https://trakt.tv/search?query=" + subtext;
-                    break;
-                case "tv":
-                    window.location = "https://www.thetvdb.com/search?q=" + subtext;
+                case "www":
+                    window.location = default_engine + subtext + " site:https://www.w3schools.com/";
                     break;
                 case "y":
                     window.location = "https://www.youtube.com/results?search_query=" + subtext;
+                    break;
+                case "calc":
+                    var expr = subtext.replace(/%2B/, '+');
+                    document.getElementById("keywords").value  = expr + " = " + eval(expr);
+                    break;
+                case "help":
+                    window.location = "#help";
                     break;
             }
         } else {
             var option = text.substr(1);
             switch (option) {
-                case "d":
-                    window.location = "https://www.dukduckgo.com";
+                case "":
+                case "?":
+                    window.location = "#help";
+                    break;
+                case "ascii":
+                    window.location = "#asciitable";
+                    break;
+                case "chrono":
+                    window.location = "#chrono";
+                    break;
+                case "curr":
+                    window.location = "#currency";
+                    break;
+                case "di":
+                    window.location = "https://www.discogs.com/";
+                    break;
+                case "help":
+                    window.location = "#help";
+                    break;
+                case "ip":
+                    window.location = "#myip";
+                    break;
+                case "p":
+                    window.location = "https://www.popsike.com/";
                     break;
                 case "y":
                     window.location = "https://www.youtube.com";
                     break;
-                case "r":
-                    window.location = "https://reddit.com";
-                    break;
-                case "s":
-                    window.location = "https://open.spotify.com";
-                    break;
             }
         }
     } else {
-        window.location = "https://www.google.com/search?q=" + text;
+        window.location = default_engine + text;
     }
 }
 
@@ -120,3 +150,13 @@ String.prototype.replaceAll = function(search, replacement) {
     var target = this;
     return target.split(search).join(replacement);
 };
+
+function getMyIp() {
+  $(function() {
+    $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+      function(json) {
+        document.getElementById("ip").innerHTML  = json.ip;
+      }
+    );
+  });
+}
