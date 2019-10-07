@@ -1,6 +1,6 @@
 {
     "apps" : [
-        {"name":"Weather","url":"www.meteofrance.com/previsions-meteo-france/rennes/35000","icon":"weather-sunny"},
+        {"name":"Weather","url":"http://meteofrance.com/previsions-meteo-france/rennes/35000","icon":"weather-sunny"},
         {"name":"Gmail","url":"https://mail.google.com","icon":"gmail"},
         {"name":"ProtonMail","url":"https://protonmail.com","icon":"email"},
         {"name":"Tracking","url":"https://azukibox.hd.free.fr/nextcloud/index.php/s/dez3oizqXD8wrxs","icon":"mail"},
