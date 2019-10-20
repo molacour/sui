@@ -57,47 +57,14 @@ function search(text) {
     if (text[0] === '/') {
         if (text.indexOf(' ') > -1) {
             switch (option) {
-                case "cpp":
-                    window.location = "http://www.cplusplus.com/search.do?q=" + subtext;
-                    break;
-                case "di":
-                    window.location = "https://www.discogs.com/search/?q=" + subtext;
-                    break;
-                case "e":
-                    window.location = "https://www.ebay.com/sch/i.html?_nkw=" + subtext;
-                    break;
                 case "g":
                     window.location = "https://www.google.com/search?q=" + subtext;
                     break;
                 case "img":
                     window.location = "https://www.qwant.com/?q=" + subtext + "&t=images";
                     break;
-                case "man":
-                    window.location = default_engine  + subtext + " site:man7.org/linux/man-pages";
-                    break;
-                case "p":
-                    window.location = "https://www.popsike.com/php/quicksearch.php?searchtext=" + subtext + "&sortord=ddate&pagenum=1&incldescr=&layout=&sprice=&eprice=&endfrom=&endthru=&bidsfrom=&bidsthru=#";
-                    break;
-                case "py":
-                    window.location = "https://docs.python.org/2/search.html?q=" + subtext + "&sortord=ddate&pagenum=1&incldescr=&layout=&sprice=&eprice=&endfrom=&endthru=&bidsfrom=&bidsthru=#";
-                    break;
-                case "py3":
-                    window.location = "https://docs.python.org/3/search.html?q=" + subtext + "&sortord=ddate&pagenum=1&incldescr=&layout=&sprice=&eprice=&endfrom=&endthru=&bidsfrom=&bidsthru=#";
-                    break;
-                case "r":
-                    window.location = "https://www.reddit.com/search?q=" + subtext;
-                    break;
-                case "q":
-                    window.location = "https://www.qwant.com/?q=" + subtext;
-                    break;
                 case "wiki":
                     window.location = "https://fr.wikipedia.org/w/index.php?search=" + subtext;
-                    break;
-                case "www":
-                    window.location = default_engine + subtext + " site:https://www.w3schools.com/";
-                    break;
-                case "y":
-                    window.location = "https://www.youtube.com/results?search_query=" + subtext;
                     break;
                 case "calc":
                     var expr = subtext.replace(/%2B/, '+');
@@ -112,31 +79,8 @@ function search(text) {
             switch (option) {
                 case "":
                 case "?":
-                    window.location = "#help";
-                    break;
-                case "ascii":
-                    window.location = "#asciitable";
-                    break;
-                case "chrono":
-                    window.location = "#chrono";
-                    break;
-                case "curr":
-                    window.location = "#currency";
-                    break;
-                case "di":
-                    window.location = "https://www.discogs.com/";
-                    break;
                 case "help":
                     window.location = "#help";
-                    break;
-                case "ip":
-                    window.location = "#myip";
-                    break;
-                case "p":
-                    window.location = "https://www.popsike.com/";
-                    break;
-                case "y":
-                    window.location = "https://www.youtube.com";
                     break;
             }
         }
@@ -150,13 +94,3 @@ String.prototype.replaceAll = function(search, replacement) {
     var target = this;
     return target.split(search).join(replacement);
 };
-
-function getMyIp() {
-  $(function() {
-    $.getJSON("https://api.ipify.org?format=jsonp&callback=?",
-      function(json) {
-        document.getElementById("ip").innerHTML  = json.ip;
-      }
-    );
-  });
-}

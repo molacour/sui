@@ -2,21 +2,9 @@
     "providers" : [
         {"name":"Qwant","url":"https://www.qwant.com/?q=","prefix":"/q <search>"},
         {"name":"Images","url":"https://www.qwant.com/?q=&t=images","prefix":"/img <search>"},
-        {"name":"Discogs","url":"https://www.discogs.com/search/?q=","prefix":"/di <search>"},
-        {"name":"YouTube","url":"https://www.qwant.com/?q=","prefix":"/g <search>"},
-        {"name":"Google","url":"https://www.youtube.com/results?search_query=","prefix":"/y <search>"},
-        {"name":"Popsike","url":"https://www.popsike.com/php/quicksearch.php?searchtext=","prefix":"/p <search>"},
-        {"name":"eBay","url":"https://www.ebay.com/sch/i.html?_nkw=","prefix":"/e <search>"},
+        {"name":"Google","url":"https://www.google.com/search?q=","prefix":"/g <search>"},
         {"name":"Wikipedia","url":"https://fr.wikipedia.org/w/index.php?search=","prefix":"/wiki <search>"},
-        {"name":"Man Page","url":"site:man7.org/linux/man-pages","prefix":"/man <search>"},
-        {"name":"Python 2.7 Doc","url":"https://docs.python.org/2/search.html?q=","prefix":"/py <search>"},
-        {"name":"Python 3 Doc","url":"https://docs.python.org/3/search.html?q=","prefix":"/py3 <search>"},
-        {"name":"W3 HTML Reference","url":"site:https://www.w3schools.com/","prefix":"/www <search>"},
-        {"name":"C++ Reference","url":"http://www.cplusplus.com/search.do?q=","prefix":"/cpp <search>"},
-        {"name":"Calculator","url":"#","prefix":"/calc <exp>"},
-        {"name":"Stopwatch","url":"#chrono","prefix":"/chrono"},
-        {"name":"ASCII Table","url":"#ascii","prefix":"/ascii"},
-        {"name":"My IP Address","url":"#myip","prefix":"/ip"},
-        {"name":"Help","url":"#modal","prefix":"/ , /? , /help"}
+        {"name":"Calcul","url":"#","prefix":"/calc <exp>"},
+        {"name":"Aide","url":"#modal","prefix":"/ , /? , /help"}
     ]
 }

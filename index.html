@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <title>Acceuil</title>
     <meta charset="utf-8">
     <meta http-equiv="Default-Style" content="">
     <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
@@ -13,51 +13,6 @@
 </head>
 
 <body onload="loadFunctions()">
-
-    <section id="myip" class="modal">
-        <div>
-
-            <header id="modal-header">
-
-                <a href="#"><span class="iconify" data-icon="mdi-network"></span></a>
-
-                <h1 id="ip" align="center"></h1>
-
-                <a href="#" title="Close" class="modal-close">
-                    <span class="iconify" data-icon="mdi-close"></span>
-
-                </a>
-
-            </header>
-        </div>
-    </section> 
-
-    <section id="chrono" class="modal">
-        <div>
-
-            <header id="modal-header">
-
-                <a href="#"><span class="iconify" data-icon="mdi-timer"></span></a>
-
-                <h1 id="chrono-text" align="center"><time>00:00:00</time></h1>
-
-                <a href="#" title="Close" class="modal-close">
-                    <span class="iconify" data-icon="mdi-close"></span>
-
-                </a>
-
-            </header>
-
-
-            <button id="start">start</button>
-
-            <button id="stop">stop</button>
-
-            <button id="reset">reset</button>
-
-            <br>
-        </div>
-    </section> 
     
     <section id="help" class="modal">
         <div>
@@ -92,71 +47,12 @@
             </header>
         </div>
     </section> 
-
-    <section id="asciitable" class="modal">
-        <div>
-
-            <header id="modal-header">
-
-                <a href="#"><span class="iconify" data-icon="mdi-pound"></span></a>
-
-                <h1>ASCII Table</h1>
-
-                <a href="#" title="Close" class="modal-close">
-                    <span class="iconify" data-icon="mdi-close"></span>
-
-                </a>
-
-            </header>
-
-            <section id="ascii">
-                <script type="text/handlebars-template" id="ascii-template">
-                    <table>
-                        <tr>
-                            <th>Char</th>
-                            <th>Hex</th>
-                            <th>Binary</th>
-                            <th>HTML</th>
-                        </tr>
-                        {{#ascii}}
-                        <tr>
-                            <td>{{c}}</td>
-                            <td>{{h}}</td>
-                            <td>{{b}}</td>
-                            <td>{{html}}</td>
-                        </tr>
-                        {{/ascii}}
-                    </table>
-                </script>
-            </section>
-        <br>
-        </div>
-    </section> 
-
-    <section id="currency" class="modal">
-        <div>
-
-            <header id="modal-header">
-
-                <a href="#"><span class="iconify" data-icon="mdi-euro"></span></a>
-
-                <h1>Currency Converter</h1>
-
-                <a href="#" title="Close" class="modal-close">
-                    <span class="iconify" data-icon="mdi-close"></span>
-                </a>
-
-            </header>
-            <input name="currency_value" type="text" id="currency_value">
-            <button id="usd">USD to EUR</button>
-            <button id="gbp">GBP to EUR</button>
-        </div>
-    </section>    
+  
 
     <main id="container" class="fade">
 
         <section id="search">
-            <input name="keywords" type="text" id="keywords" size="50" spellcheck="false" autofocus="true" onkeydown="handleKeyPress(event)" placeholder="/di <Discogs>, /p <Popsike>, /y <YouTube>, /e <eBay>, /? for help...">
+            <input name="keywords" type="text" id="keywords" size="50" spellcheck="false" autofocus="true" onkeydown="handleKeyPress(event)" placeholder="/g <Google>, /img <Images>, /wiki <Wikipedia>, /? Aide...">
         </section>
 
         <section id="header">
@@ -217,7 +113,7 @@
 
             <script type="text/handlebars-template" id="links-template">
 
-            <h3>Shortcuts</h3>
+            <h3>Raccourcis</h3>
 
             <div id="links_loop">
 
@@ -248,7 +144,6 @@
     </main>
 
     <script src="./assets/js/data.js" type="text/javascript"></script>
-    <script src="./assets/js/money.min.js" type="text/javascript"></script>
     <script src="./assets/js/script.js" type="text/javascript"></script>
     <script src="./assets/js/themer.js" type="text/javascript"></script> 
     <script src="./assets/js/search.js" type="text/javascript"></script>

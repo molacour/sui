@@ -1,7 +1,7 @@
 {
             "bookmarks" : [
               {
-                "category": "Common",
+                "category": "Infos",
                 "links": [
                   {
                     "name": "Ouest-France",
@@ -13,84 +13,7 @@
                 ]
               },
               {
-                "category": "Records",
-                "links": [
-                  {
-                    "name": "45cat",
-                    "url": "http://www.45cat.com"
-                  },
-                  {
-                    "name": "Gripsweat",
-                    "url": "http://gripsweat.com"
-                  },
-                  {
-                    "name": "CollectorsFrenzy",
-                    "url": "http://collectorsfrenzy.com/"
-                  }
-                ]
-              },
-              {
-                "category": "Media",
-                "links": [
-                  {
-                    "name": "YouTube",
-                    "url": "https://www.youtube.com/user/goorman/playlists?view=1&sort=dd&shelf_id=0"
-                  },
-                  {
-                    "name": "Mixcloud",
-                    "url": "https://www.mixcloud.com/morguito/"
-                  }
-                ]
-              },
-              {
-                "category": "Dev",
-                "links": [
-                  {
-                    "name": "cheatsheet",
-                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/x6JfGjEWFn5akDd"
-                  },
-                  {
-                    "name": ".bashrc",
-                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/jTjs8fQWnSFLtYi/download"
-                  },
-                  {
-                    "name": ".vimrc",
-                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/FFgGGQkSqDpg7jC/download"
-                  }
-                ]
-              },
-              {
-                "category": "Apside",
-                "links": [
-                  {
-                    "name": "PACO",
-                    "url": "https://paco.apsdigit.fr/home"
-                  },
-                  {
-                    "name": "RocketChat",
-                    "url": "https://chat.apsdigit.fr/home"
-                  },
-                  {
-                    "name": "Zimbra",
-                    "url": "https://mail.apside-groupe.com/"
-                  },
-                  {
-                    "name": "Sygess",
-                    "url": "https://collaborateurs.apside.fr/"
-                  },
-                  {
-                    "name": "Meyclub",
-                    "url": "http://www.apsiderennes.meyclub.com/com/homepage"
-                  },
-                  {
-                    "name": "My Edenred",
-                    "url": "https://www.myedenred.fr/"
-                  }
-
-                ]
-              },
-              {
-                "category": "Market",
+                "category": "Shopping",
                 "links": [
                   {
                     "name": "eBay",
@@ -111,32 +34,6 @@
                 ]
               },
               {
-                "category": "Tools",
-                "links": [
-                  {
-                    "name": "Jirafeau",
-                    "url": "https://azukibox.hd.free.fr/jirafeau/"
-                  },
-                  {
-                    "name": "freebox OS",
-                    "url": "http://mafreebox.freebox.fr/"
-                  },
-                  {
-                    "name": "AllTube-DL",
-                    "url": "https://alltubedownload.net/"
-                  },
-                  {
-                    "name": "Wiki",
-                    "url": "https://azukibox.hd.free.fr/dokuwiki/"
-                  },
-                  {
-                    "name": "PrivateBin",
-                    "url": "https://azukibox.hd.free.fr/zerobin/"
-                  }
-
-                ]
-              },
-              {
                 "category": "Bus",
                 "links": [
                   {
@@ -152,20 +49,8 @@
                     "url": "https://m.star.fr/arret/1372/9/0"
                   },
                   {
-                    "name": "51 - St Laurent",
-                    "url": "https://m.star.fr/arret/1485/51/0"
-                  },
-                  {
                     "name": "14 - Hélias",
                     "url": "https://m.star.fr/arret/1410/14/0"
-                  },
-                  {
-                    "name": "09 - St Laurent",
-                    "url": "https://m.star.fr/arret/1372/9/0"
-                  },
-                  {
-                    "name": "C1 - Champs Blanc",
-                    "url": "https://m.star.fr/arret/2126/1/0"
                   }
                 ]
               }

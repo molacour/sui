@@ -1,16 +1,12 @@
 {
     "apps" : [
-        {"name":"Weather","url":"http://www.meteofrance.com/previsions-meteo-france/rennes/35000","icon":"weather-sunny"},
+        {"name":"Météo","url":"http://www.meteofrance.com/previsions-meteo-france/rennes/35000","icon":"weather-sunny"},
         {"name":"Gmail","url":"https://mail.google.com","icon":"gmail"},
-        {"name":"ProtonMail","url":"https://protonmail.com","icon":"email"},
-        {"name":"Tracking","url":"https://azukibox.hd.free.fr/nextcloud/index.php/s/dez3oizqXD8wrxs","icon":"mail"},
+        {"name":"Agenda","url":"https://calendar.google.com/calendar/","icon":"calendar"},
+        {"name":"Notes","url":"https://azukibox.hd.free.fr/nextcloud/index.php/apps/notes/note/789","icon":"note"},
+        {"name":"Colis","url":"https://azukibox.hd.free.fr/nextcloud/index.php/s/dez3oizqXD8wrxs","icon":"mail"},
         {"name":"Nextcloud","url":"https://azukibox.hd.free.fr/nextcloud/","icon":"weather-cloudy"},
-        {"name":"Agenda","url":"https://azukibox.hd.free.fr/nextcloud/index.php/apps/calendar/","icon":"calendar"},
-        {"name":"Music","url":"https://azukibox.hd.free.fr/nextcloud/index.php/apps/audioplayer/","icon":"music"},
-        {"name":"Notes","url":"https://azukibox.hd.free.fr/nextcloud/index.php/apps/files/?dir=/Notes","icon":"note"},
-        {"name":"Yunohost","url":"https://azukibox.hd.free.fr/yunohost/","icon":"server"},
-        {"name":"Bank","url":"https://www.banquepopulaire.fr","icon":"bank"},
-        {"name":"PayPal","url":"https://paypal.com","icon":"paypal"},
-        {"name":"Currency","url":"#currency","icon":"euro"}
+        {"name":"Banque","url":"https://www.caisse-epargne.fr/particuliers","icon":"bank"},
+        {"name":"Mouss","url":"https://azukibox.hd.free.fr/nextcloud/index.php/s/qfM89kLknZ2e3jQ","icon":"cat"}
     ]
 }
