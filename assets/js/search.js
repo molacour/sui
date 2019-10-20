@@ -60,6 +60,9 @@ function search(text) {
                 case "g":
                     window.location = "https://www.google.com/search?q=" + subtext;
                     break;
+                case "y":
+                    window.location = "https://www.youtube.com/results?search_query=" + subtext;
+                    break;
                 case "img":
                     window.location = "https://www.qwant.com/?q=" + subtext + "&t=images";
                     break;
