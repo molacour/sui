@@ -46,8 +46,8 @@
                 "category": "Dev",
                 "links": [
                   {
-                    "name": "cheatsheet",
-                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/x6JfGjEWFn5akDd"
+                    "name": "Cheatsheets",
+                    "url": "https://azukibox.hd.free.fr/dokuwiki/doku.php?id=cheatsheets"
                   },
                   {
                     "name": ".bashrc",
