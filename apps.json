@@ -10,6 +10,7 @@
         {"name":"Notes","url":"https://azukibox.hd.free.fr/nextcloud/index.php/apps/files/?dir=/Notes","icon":"note"},
         {"name":"Bank","url":"https://www.banquepopulaire.fr","icon":"bank"},
         {"name":"PayPal","url":"https://paypal.com","icon":"paypal"},
-        {"name":"Currency","url":"#currency","icon":"euro"}
+        {"name":"Currency","url":"#currency","icon":"euro"},
+        {"name":"Bus","url":"https://m.star.fr/lignes/simplifie","icon":"bus"}
     ]
 }
