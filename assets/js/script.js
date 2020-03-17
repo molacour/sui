@@ -47,7 +47,8 @@ function loadFunctions() {
     'color-text-acc': '#4E4E4E'
   });
 
-  date();  
+  date();
+  time();
   // here we run the clockTick function every 1000ms (1 second)
   setInterval(time, 1000);
 
