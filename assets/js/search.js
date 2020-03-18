@@ -88,6 +88,12 @@ function search(text) {
                 case "help":
                     window.location = "#help";
                     break;
+                case "rec":
+                    window.open("https://www.youtube.com/results?search_query=" + subtext);
+                    window.open("https://www.discogs.com/search/?q=" + subtext);
+                    window.open("https://www.ebay.com/sch/i.html?_nkw=" + subtext);
+                    window.open("https://www.popsike.com/php/quicksearch.php?searchtext=" + subtext + "&sortord=ddate&pagenum=1&incldescr=&layout=&sprice=&eprice=&endfrom=&endthru=&bidsfrom=&bidsthru=#");
+                    break;
             }
         } else {
             var option = text.substr(1);
