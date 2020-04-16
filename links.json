@@ -34,27 +34,6 @@
                 ]
               },
               {
-                "category": "WareZ",
-                "links": [
-                  {
-                    "name": "Ygg",
-                    "url": "https://www.yggtorrent.se/"
-                  },
-                  {
-                    "name": "RARBG",
-                    "url": "https://rarbgaccessed.org/"
-                  },
-                  {
-                    "name": "YIFY",
-                    "url": "https://yts.mx/"
-                  },
-                  {
-                    "name": "UnblockTheShip",
-                    "url": "https://unblocktheship.org/"
-                  }
-                ]
-              },
-              {
                 "category": "Media",
                 "links": [
                   {
@@ -116,6 +95,27 @@
                     "url": "https://www.myedenred.fr/"
                   }
 
+                ]
+              },
+              {
+                "category": "WareZ",
+                "links": [
+                  {
+                    "name": "Ygg",
+                    "url": "https://www.yggtorrent.se/"
+                  },
+                  {
+                    "name": "RARBG",
+                    "url": "https://rarbgaccessed.org/"
+                  },
+                  {
+                    "name": "YIFY",
+                    "url": "https://yts.mx/"
+                  },
+                  {
+                    "name": "UnblockTheShip",
+                    "url": "https://unblocktheship.org/"
+                  }
                 ]
               },
               {
