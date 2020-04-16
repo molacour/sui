@@ -13,6 +13,27 @@
                 ]
               },
               {
+                "category": "Market",
+                "links": [
+                  {
+                    "name": "eBay",
+                    "url": "https://www.ebay.com/"
+                  },
+                  {
+                    "name": "Etsy",
+                    "url": "https://www.etsy.com/"
+                  },
+                  {
+                    "name": "Leboncoin",
+                    "url": "https://www.leboncoin.fr/annonces/offres/bretagne/"
+                  },
+                  {
+                    "name": "Mesures",
+                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/Qg4ZMk93dKkrz5d"
+                  }
+                ]
+              },
+              {
                 "category": "Records",
                 "links": [
                   {
@@ -87,27 +108,6 @@
                     "url": "https://www.myedenred.fr/"
                   }
 
-                ]
-              },
-              {
-                "category": "Market",
-                "links": [
-                  {
-                    "name": "eBay",
-                    "url": "https://www.ebay.com/"
-                  },
-                  {
-                    "name": "Etsy",
-                    "url": "https://www.etsy.com/"
-                  },
-                  {
-                    "name": "leboncoin",
-                    "url": "https://www.leboncoin.fr/annonces/offres/bretagne/"
-                  },
-                  {
-                    "name": "Mesures",
-                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/Qg4ZMk93dKkrz5d"
-                  }
                 ]
               },
               {
