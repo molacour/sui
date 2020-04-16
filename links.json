@@ -1,7 +1,7 @@
 {
             "bookmarks" : [
               {
-                "category": "Common",
+                "category": "News",
                 "links": [
                   {
                     "name": "Ouest-France",
@@ -34,15 +34,23 @@
                 ]
               },
               {
-                "category": "Records",
+                "category": "WareZ",
                 "links": [
                   {
-                    "name": "45cat",
-                    "url": "http://www.45cat.com"
+                    "name": "Ygg",
+                    "url": "https://www.yggtorrent.se/"
                   },
                   {
-                    "name": "Gripsweat",
-                    "url": "http://gripsweat.com"
+                    "name": "RARBG",
+                    "url": "https://rarbgaccessed.org/"
+                  },
+                  {
+                    "name": "YIFY",
+                    "url": "https://yts.mx/"
+                  },
+                  {
+                    "name": "UnblockTheShip",
+                    "url": "https://unblocktheship.org/"
                   }
                 ]
               },
