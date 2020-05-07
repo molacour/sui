@@ -1,7 +1,7 @@
 {
             "bookmarks" : [
               {
-                "category": "News",
+                "category": "Links",
                 "links": [
                   {
                     "name": "Ouest-France",
@@ -9,12 +9,7 @@
                   },{
                     "name": "Vide-Greniers",
                     "url": "https://vide-greniers.org/35-Ille-et-Vilaine/Rennes-35"
-                  }
-                ]
-              },
-              {
-                "category": "Market",
-                "links": [
+                  },
                   {
                     "name": "eBay",
                     "url": "https://www.ebay.com/"
@@ -30,41 +25,27 @@
                   {
                     "name": "Mesures",
                     "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/Qg4ZMk93dKkrz5d"
-                  }
-                ]
-              },
-              {
-                "category": "Media",
-                "links": [
-                  {
-                    "name": "YouTube",
-                    "url": "https://www.youtube.com/user/goorman/playlists?view=1&sort=dd&shelf_id=0"
                   },
                   {
-                    "name": "Mixcloud",
-                    "url": "https://www.mixcloud.com/morguito/"
-                  }
-                ]
-              },
-              {
-                "category": "Dev",
-                "links": [
-                  {
-                    "name": "GitHub",
-                    "url": "https://github.com/molacour/"
+                    "name": "Ygg",
+                    "url": "https://www.yggtorrent.se/"
                   },
                   {
-                    "name": "Cheatsheets",
-                    "url": "https://azukibox.hd.free.fr/dokuwiki/doku.php?id=cheatsheets"
+                    "name": "RARBG",
+                    "url": "https://rarbgaccessed.org/"
                   },
                   {
-                    "name": ".bashrc",
-                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/jTjs8fQWnSFLtYi/download"
+                    "name": "YIFY",
+                    "url": "https://yts.mx/"
                   },
                   {
-                    "name": ".vimrc",
-                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/FFgGGQkSqDpg7jC/download"
-                  }
+                    "name": "UnblockTheShip",
+                    "url": "https://unblocktheship.org/"
+                  },
+                  {
+                    "name": "freebox OS",
+                    "url": "http://mafreebox.freebox.fr/"
+                  },
                 ]
               },
               {
@@ -98,50 +79,24 @@
                 ]
               },
               {
-                "category": "WareZ",
+                "category": "Dev",
                 "links": [
                   {
-                    "name": "Ygg",
-                    "url": "https://www.yggtorrent.se/"
+                    "name": "GitHub",
+                    "url": "https://github.com/molacour/"
                   },
                   {
-                    "name": "RARBG",
-                    "url": "https://rarbgaccessed.org/"
+                    "name": "Cheatsheets",
+                    "url": "https://azukibox.hd.free.fr/dokuwiki/doku.php?id=cheatsheets"
                   },
                   {
-                    "name": "YIFY",
-                    "url": "https://yts.mx/"
+                    "name": ".bashrc",
+                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/jTjs8fQWnSFLtYi/download"
                   },
                   {
-                    "name": "UnblockTheShip",
-                    "url": "https://unblocktheship.org/"
+                    "name": ".vimrc",
+                    "url": "https://azukibox.hd.free.fr/nextcloud/index.php/s/FFgGGQkSqDpg7jC/download"
                   }
-                ]
-              },
-              {
-                "category": "Tools",
-                "links": [
-                  {
-                    "name": "Jirafeau",
-                    "url": "https://azukibox.hd.free.fr/jirafeau/"
-                  },
-                  {
-                    "name": "freebox OS",
-                    "url": "http://mafreebox.freebox.fr/"
-                  },
-                  {
-                    "name": "AllTube-DL",
-                    "url": "https://alltubedownload.net/"
-                  },
-                  {
-                    "name": "Wiki",
-                    "url": "https://azukibox.hd.free.fr/dokuwiki/"
-                  },
-                  {
-                    "name": "PrivateBin",
-                    "url": "https://azukibox.hd.free.fr/zerobin/"
-                  }
-
                 ]
               },
               {

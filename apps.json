@@ -3,14 +3,16 @@
         {"name":"Weather","url":"http://www.meteofrance.com/previsions-meteo-france/rennes/35000","icon":"weather-sunny"},
         {"name":"Gmail","url":"https://mail.google.com","icon":"gmail"},
         {"name":"ProtonMail","url":"https://protonmail.com","icon":"email"},
-        {"name":"Tracking","url":"https://azukibox.hd.free.fr/index.php/s/dez3oizqXD8wrxs","icon":"mail"},
+        {"name":"Notes","url":"https://azukibox.hd.free.fr/index.php/apps/files/?dir=/Notes","icon":"note"},
         {"name":"CloudAdmin","url":"https://azukibox.hd.free.fr:4443","icon":"server"},
         {"name":"Nextcloud","url":"https://azukibox.hd.free.fr/","icon":"weather-cloudy"},
         {"name":"Agenda","url":"https://azukibox.hd.free.fr/index.php/apps/calendar/","icon":"calendar"},
-        {"name":"Notes","url":"https://azukibox.hd.free.fr/index.php/apps/files/?dir=/Notes","icon":"note"},
-        {"name":"Bank","url":"https://www.banquepopulaire.fr","icon":"bank"},
-        {"name":"PayPal","url":"https://paypal.com","icon":"paypal"},
+        {"name":"Graphics","url":"https://azukibox.hd.free.fr/index.php/apps/photos/albums/Graphics","icon":"picture"},
+        {"name":"Youtube","url":"https://www.youtube.com/user/goorman/playlists?view=1&sort=dd&shelf_id=0","icon":"youtube"},
+        {"name":"Mixcloud","url":"https://www.mixcloud.com/morguito/","icon":"podcast"},
         {"name":"Currency","url":"#currency","icon":"euro"},
         {"name":"Bus","url":"https://m.star.fr/lignes/simplifie","icon":"bus"}
     ]
 }
+
+
