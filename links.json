@@ -103,6 +103,10 @@
                 "category": "Bus",
                 "links": [
                   {
+                    "name": "Star",
+                    "url": "https://m.star.fr/lignes/simplifie"
+                  },
+                  {
                     "name": "C3 - St Laurent",
                     "url": "https://m.star.fr/arret/1103/3/0"
                   },

@@ -10,8 +10,8 @@
         {"name":"Graphics","url":"https://azukibox.hd.free.fr/index.php/apps/photos/albums/Graphics","icon":"picture"},
         {"name":"Youtube","url":"https://www.youtube.com/user/goorman/playlists?view=1&sort=dd&shelf_id=0","icon":"youtube"},
         {"name":"Mixcloud","url":"https://www.mixcloud.com/morguito/","icon":"podcast"},
-        {"name":"Currency","url":"#currency","icon":"euro"},
-        {"name":"Bus","url":"https://m.star.fr/lignes/simplifie","icon":"bus"}
+        {"name":"Keeweb","url":"https://azukibox.hd.free.fr/index.php/apps/keeweb/","icon":"key"},
+        {"name":"Maps","url":"https://azukibox.hd.free.fr/index.php/apps/maps/","icon":"map"}
     ]
 }
 
