@@ -7,7 +7,7 @@
         {"name":"CloudAdmin","url":"https://azukibox.hd.free.fr:4443","icon":"server"},
         {"name":"Nextcloud","url":"https://azukibox.hd.free.fr/","icon":"weather-cloudy"},
         {"name":"Agenda","url":"https://azukibox.hd.free.fr/index.php/apps/calendar/","icon":"calendar"},
-        {"name":"News","url":"PimEyes","icon":"rss"},
+        {"name":"News","url":"https://azukibox.hd.free.fr/index.php/apps/news/#/items/unread","icon":"rss"},
         {"name":"Youtube","url":"https://www.youtube.com/user/goorman/playlists?view=1&sort=dd&shelf_id=0","icon":"youtube"},
         {"name":"Mixcloud","url":"https://www.mixcloud.com/morguito/","icon":"podcast"},
         {"name":"Keeweb","url":"https://azukibox.hd.free.fr/index.php/apps/keeweb/","icon":"key"},
