@@ -10,7 +10,7 @@
         {"name":"News","url":"https://azukibox.hd.free.fr/index.php/apps/news/#/items/unread","icon":"rss"},
         {"name":"Youtube","url":"https://www.youtube.com/user/goorman/playlists?view=1&sort=dd&shelf_id=0","icon":"youtube"},
         {"name":"Mixcloud","url":"https://www.mixcloud.com/morguito/","icon":"podcast"},
-        {"name":"Keeweb","url":"https://azukibox.hd.free.fr/index.php/apps/keeweb/","icon":"key"},
+        {"name":"Spotify","url":"https://open.spotify.com/user/rpyqijkhgztd6dou7t94sfiqz","icon":"spotify"},
         {"name":"Maps","url":"https://azukibox.hd.free.fr/index.php/apps/maps/","icon":"map"}
     ]
 }
