@@ -1,12 +1,12 @@
 {
     "apps" : [
         {"name":"Weather","url":"http://www.meteofrance.com/previsions-meteo-france/rennes/35000","icon":"weather-sunny"},
-        {"name":"Gmail","url":"https://mail.google.com","icon":"gmail"},
         {"name":"ProtonMail","url":"https://protonmail.com","icon":"email"},
+        {"name":"Agenda","url":"https://azukibox.hd.free.fr/index.php/apps/calendar/dayGridMonth/now","icon":"calendar"},
         {"name":"Notes","url":"https://azukibox.hd.free.fr/index.php/apps/files/?dir=/Notes","icon":"note"},
         {"name":"CloudAdmin","url":"https://azukibox.hd.free.fr:4443","icon":"server"},
         {"name":"Nextcloud","url":"https://azukibox.hd.free.fr/","icon":"weather-cloudy"},
-        {"name":"Agenda","url":"https://azukibox.hd.free.fr/index.php/apps/calendar/dayGridMonth/now","icon":"calendar"},
+        {"name":"Keyweb","url":"https://azukibox.hd.free.fr/index.php/apps/keeweb/","icon":"lock"},
         {"name":"News","url":"https://azukibox.hd.free.fr/index.php/apps/news/#/items/unread","icon":"rss"},
         {"name":"Youtube","url":"https://www.youtube.com/user/goorman/playlists?view=1&sort=dd&shelf_id=0","icon":"youtube"},
         {"name":"Mixcloud","url":"https://www.mixcloud.com/morguito/","icon":"podcast"},
