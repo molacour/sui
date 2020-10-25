@@ -66,8 +66,8 @@ function search(text) {
                 case "g":
                     window.location = "https://www.google.com/search?q=" + subtext;
                     break;
-                case "img":
-                    window.location = "https://www.qwant.com/?q=" + subtext + "&t=images";
+                case "suivi":
+                    window.location = "https://www.laposte.fr/outils/suivre-vos-envois?code=" + subtext;
                     break;
                 case "p":
                     window.location = "https://www.popsike.com/php/quicksearch.php?searchtext=" + subtext + "&sortord=ddate&pagenum=1&incldescr=&layout=&sprice=&eprice=&endfrom=&endthru=&bidsfrom=&bidsthru=#";
